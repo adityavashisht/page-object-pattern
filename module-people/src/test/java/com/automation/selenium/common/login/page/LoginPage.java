@@ -26,6 +26,7 @@ public class LoginPage {
      */
     public void enterCredentials(String user, String pax) {
 
+        // test my build
         WebElement userId = webDriver.findElement(username);
         userId.clear();
         userId.sendKeys(user);
